@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<style>
+    .nav-toggle {
+        display: none;
+        position: fixed;
+        top: 10px;
+        left: 10px; /* Changed from right to left */
+        z-index: 1001;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .nav-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: black; /* Changed from white to black */
+        margin: 5px 0;
+    }
+    @media screen and (max-width: 768px) {
+        .nav-toggle {
+            display: block;
+        }
+        nav {
+            display: none;
+        }
+        nav.active {
+            display: block;
+        }
+        nav a {
+            display: block;
+            padding: 10px;
+        }
+    }
+    .nav-toggle {
+        display: none;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 1001;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+    }
+    .nav-toggle span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+    }
+    @media screen and (max-width: 768px) {
+        .nav-toggle {
+            display: block;
+        }
+        nav {
+            display: none;
+        }
+        nav.active {
+            display: block;
+        }
+        nav a {
+            display: block;
+            padding: 10px;
+        }
+    }
+</style>
+<button class="nav-toggle" onclick="toggleNav()">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+<script>
+function toggleNav() {
+    document.querySelector('nav').classList.toggle('active');
+}
+</script>
+<style>
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+    body {
+        padding-top: 50px; /* Adjust based on the height of the nav */
+    }
+</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needle & Muse Tattoo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+</html></html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needle & Muse Tattoo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <script>
+        let prevScrollPos = window.pageYOffset;
+        window.onscroll = function() {
+            let currentScrollPos = window.pageYOffset;
+            document.querySelector('nav').style.top = 
+                prevScrollPos > currentScrollPos ? "0" : "-60px";
+            prevScrollPos = currentScrollPos;
+                    </script>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        }
+
+    </nav>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Needle & Muse Tattoo Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\Needle1.jpg" alt="Creative Header Image" style="width: 100%; height: auto;"></html>
+</head>
+<body>
+    <div class="container" id="home">
+        <h2 style="font-family: 'Arial', sans-serif; color: #333; text-align: center; margin-top: 20px; width: 100%;">Welcome to Needle & Muse Studio</h2>
+        <p>Your one-stop destination for amazing tattoos and body art.</p>
+    </div>
+    <div class="container" id="about">
+        <h2>About Us</h2>
+        <p style="
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #2b2b2b;
+            margin: 25px 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-left: 4px solid #333;
+            border-radius: 5px;
+            text-align: justify;
+        ">Welcome to Needle & Muse, where your personal story finds its expression through the art of tattooing.
+        <br><p><i>We are more than just a tattoo shop; we are your partners in crafting a narrative that's uniquely yours, etched into your skin with precision and passion.</i>
+        </p></p></br>
+
+        <h3><u>Who We Are:</u></h3>
+        <p>At Needle & Muse, we blend creativity with skill to offer tattoos that resonate with your individuality. Whether you're inking a memory, a piece of art, or a symbol of your journey, our artists are here to bring your vision to life.
+            Whether you're looking for your first tattoo or adding to your collection, Needle & Muse is where your skin becomes a canvas for your personal saga. Let's make art together.</p>
+            <br><br><br>
+        <h3>Why Choose Needle & Muse:</h3>
+        <ol>
+            <li><strong>Artistry at Its Best:</strong> Our artists are storytellers who use ink as their medium.</li>
+            <li><strong>Competitive Pricing:</strong> Quality work at fair prices.</li>
+            <li><strong>Customized Experience:</strong> Your story is our focus.</li>
+            <li><strong>Hygiene and Safety:</strong> We maintain the highest standards.</li>
+            <li><strong>Comfortable Environment:</strong> Inspiring atmosphere for your journey.</li>
+            <li><strong>Community and Culture:</strong> We're more than a business; we're a community.</li>
+        </ol>         
+            
+    </div>
+    <div class="container" id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Custom Tattoos</li>
+            <li>Cover-Up Tattoos</li>
+            <li>Body Piercing</li>
+            <li>Tattoo Removal</li>
+        </ul>
+    </div>
+    <div class="container gallery" id="gallery">
+        <h2 style="text-align: center; color: #333; margin: 40px 0; font-family: 'Old English Text MT', serif;">Gallery</h2>
+    </div>
+    <div class="gallery">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\2.jpg" alt="Tattoo 1">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\3.jpg" alt="Tattoo 2">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\4.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\5.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\6.jpg" alt="Tattoo 1">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\7.jpg" alt="Tattoo 2">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\8.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\9.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\10.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\11.jpg" alt="Tattoo 3">
+        <img src="C:\Users\Tony.Ogaa\Downloads\PERSONAL\BIZ\Images\1.jpg" alt="Tattoo 3">
+    </div>
+    <div class="container" id="contact">
+        <h2 style="color: white;">Contact Us</h2>
+        <p>BERRY OGAA</p>
+        <p>Email: ogaaberry@gmail.com</p>
+        <p>Phone: (254) 743-256932</p>
+        <div class="social-links" style="background-color: rgba(255, 255, 255, 0); padding: 20px; border-radius: 5px;">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+            <a href="https://www.instagram.com/0g_berry?igsh=MWN0NDZlY3dubm85Zw==" target="_blank" style="margin: 0 10px; color: #E1306C; text-decoration: none;">
+            <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://youtube.com/needleandmuse" target="_blank" style="margin: 0 10px; color: #FF0000; text-decoration: none;">
+            <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://youtube.com/needleandmuse" target="_blank" style="margin: 0 10px; color: #FF0000; text-decoration: none;">
+            <a href="https://tiktok.com/@needleandmuse" target="_blank" style="margin: 0 10px; color: #FF0000; text-decoration: none;">
+                    <i class="fab fa-tiktok fa-2x"></i>
+                </a>
+                <i class="fa-solid fa-x"></i>
+            </a>
+        </div></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Needle & Muse Studio. All rights reserved.</p>
+    </footer>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('header h1').textContent = "Needle & Muse";
+        document.querySelector('div#home h2').textContent = "Welcome to Needle & Muse";
+        document.querySelector('div#about p').textContent = "At Needle & Muse, we have a team of professional tattoo artists with years of experience. We are dedicated to providing you with the best tattoo experience.";
+        document.querySelector('footer p').innerHTML = "&copy; 2023 Needle & Muse. All rights reserved.";
+    });
+</script>
